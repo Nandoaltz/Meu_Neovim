@@ -28,10 +28,3 @@ nvim
 > 
 > Verificar se existe uma pasta .config dentro do diretório pessoal
 
-### Instalação Windows (PowerShell)
-```
-git clone https://github.com/Nandoaltz/Meu_Neovim.git
-Move-Item -Path "Meu_Neovim\nvim" -Destination "$env:USERPROFILE\.config" -Force
-Remove-Item -Recurse -Force "Meu_Neovim"
-nvim
-```
